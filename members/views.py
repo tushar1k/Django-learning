@@ -37,4 +37,22 @@ def myself(request):
 
 
 def formInput(request):
-    print('Nothing')
+   return HttpResponse('Nothing')
+
+def companyAbout(requests):
+    template = loader.get_template("CompanyAbout.html")
+    return HttpResponse(template.render())
+
+
+def sept(request):
+    template = loader.get_template('sept.html')
+    return HttpResponse(template.render())
+def oct(request):
+    template = loader.get_template('oct.html')
+    return HttpResponse(template.render())
+def nov(request):
+    template = loader.get_template('nov.html')
+    return HttpResponse(template.render())
+def dec(request):
+    template = loader.get_template('dec.html')
+    return HttpResponse(template.render())
