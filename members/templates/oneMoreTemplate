@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <form 
+        action="/submit_form/" method="POST">
+    <div>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Enter your name">
+    </div>    
+    </form>
+</body>
+</html>
